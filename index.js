@@ -1,4 +1,4 @@
-var randomNumber1=Math.floor(Math.random()*6)+1;
+function diceGame(){var randomNumber1=Math.floor(Math.random()*6)+1;
 var randomDiceImage="dice"+randomNumber1+".png";
 var randomImageSource="images/"+randomDiceImage;
 var image1=document.querySelectorAll("img")[0];
@@ -23,3 +23,4 @@ if(randomNumber1===randomNumber2)
                 document.querySelector("h2").textContent="Player 2 Wins";
             }
     
+                   }
