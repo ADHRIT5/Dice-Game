@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+ height: 100vh;
+}
+.win{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height:20%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+}
+.game{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 60%;
+    height:60%;
+    background-color: rgb(0, 0, 0);
+    gap: 5%;
+    flex-direction: column;
+}
+.players{
+    color:white;
+    justify-content: space-around;
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+    height: 20%;
+    gap: 5%;
+    align-items: center;
+    background-color: black;
+    font-size: 2em;
+}
+.dice{
+    color:white;
+    justify-content: space-around;
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+    height: 60%;
+    gap: 5%;
+    align-items: center;
+    background-color: black;
+}
+.done{
+    height: 80%;
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 5rem;
+}
+button{
+    width: 20%;
+    margin-left: 40%;
+    font-size: 1 rem;
+}
+footer{
+    color: white;
+    text-align: center;
+}
